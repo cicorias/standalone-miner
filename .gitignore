@@ -1,3 +1,11 @@
+address.txt
+data/
+genesis.json
+geth
+geth.tar.gz
+passphrase.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
