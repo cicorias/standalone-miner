@@ -4,6 +4,12 @@ This contains some shell scripts to download then run a standalone miner
 ## Version of Geth
 The version is currently hardcoded in `downloadGeth.sh` shell script.
 
+# TL;DR
+```
+git clone git@github.com:ethereumex/standalone-miner.git
+./downloadGeth.sh && ./initGeth.sh && ./runMiner.sh
+```
+
 ## Steps to mine
 0. First, go to a working directory as all files, including chaindata will be within that directory or children of that path.
 1. run `downloadGeth.sh`   -- this will download 1.6.5 for macOS and put `geth` in the working directory
